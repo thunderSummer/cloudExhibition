@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value = "resourceData"/>
+    <version value="2"/>
+    <list>
+        <mapping class = "tech.soulike.yunzhan.cloudexhibition.base.ResourceData"/>
+    </list>
+</litepal>

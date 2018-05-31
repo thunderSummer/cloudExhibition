@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="limitCount" format="integer"/>
+        <attr name="maxLength" format="integer"/>
+        <attr name="preLineColor" format="color"/>
+        <attr name="labelColor" format="color"/>
+        <attr name="labelText" format="string"/>
+        <attr name="overlengthColor" format="color"/>
+    </declare-styleable>
+    <attr name="text" format="string"/>
+    <attr name="lineColor" format="color"/>
+    <attr name="radius" format="dimension"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="lineWidth" format="dimension"/>
+    <declare-styleable name="RoundButton">
+        <attr name="text"/>
+        <attr name="lineColor"/>
+        <attr name="radius"/>
+        <attr name="textSize"/>
+        <attr name="lineWidth"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalProgressBarWithNumber">
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBarWidthNumber">
+        <attr name="Radius" format="dimension" />
+    </declare-styleable>
+</resources>
